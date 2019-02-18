@@ -6,10 +6,6 @@ mkdir ~/bin
 curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 ccache -M 100G
-cd ~/.jack-server
-sed -i 's/jack.server.max-service=4/jack.server.max-service=1/' config.properties
-cd
-echo 'export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx12G"' >> ~/.bashrc
 echo 'export LANG=C' >> ~/.bashrc
 echo 'export PATH=~/bin:$PATH' >> ~/.bashrc
 echo 'export USE_CCACHE=1' >> ~/.bashrc
