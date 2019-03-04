@@ -9,7 +9,6 @@ ccache -M 100G
 echo 'export LANG=C' >> ~/.bashrc
 echo 'export PATH=~/bin:$PATH' >> ~/.bashrc
 echo 'export USE_CCACHE=1' >> ~/.bashrc
-echo 'export USE_NINJA=false' >> ~/.bashrc
 echo 'export WITH_SU=true' >> ~/.bashrc
 . ~/.bashrc
 mkdir ~/android
