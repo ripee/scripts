@@ -6,6 +6,7 @@ mkdir ~/bin
 curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 ccache -M 100G
+echo 'export ANDROID_COMPILE_WITH_JACK=false' >> ~/.bashrc
 echo 'export LANG=C' >> ~/.bashrc
 echo 'export PATH=~/bin:$PATH' >> ~/.bashrc
 echo 'export USE_CCACHE=1' >> ~/.bashrc
