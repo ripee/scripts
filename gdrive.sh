@@ -1,7 +1,6 @@
 #!/bin/bash
 
-wget https://docs.google.com/uc?id=0B3X9GlR6EmbnWksyTEtCM0VfaFE
-mv uc\?id\=0B3X9GlR6EmbnWksyTEtCM0VfaFE gdrive
+wget -O gdrive https://docs.google.com/uc?id=0B3X9GlR6EmbnWksyTEtCM0VfaFE
 sudo chmod a+x gdrive
 sudo install gdrive /usr/local/bin/gdrive
 rm gdrive
