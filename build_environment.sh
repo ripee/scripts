@@ -15,5 +15,6 @@ echo 'export CCACHE_EXEC=/usr/bin/ccache' >> ~/.bashrc
 echo 'export LANG=C' >> ~/.bashrc
 echo 'export PATH=~/bin:$PATH' >> ~/.bashrc
 echo 'export USE_CCACHE=1' >> ~/.bashrc
+echo 'cd' >> ~/.bashrc
 . ~/.bashrc
 mkdir ~/android
